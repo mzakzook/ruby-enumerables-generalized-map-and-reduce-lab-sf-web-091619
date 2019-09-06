@@ -15,7 +15,7 @@ def reduce(array, starting_value = nil)
     starting_value = yield(starting_value, array[i])
     i += 1
   end
-  starting_value
+  puts starting_value
 end
 
 # def reduce(array, accumulator=0)
